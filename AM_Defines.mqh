@@ -896,7 +896,7 @@ public:
       ideaWithTP = 0;
       ideaPriceWeighted = 0.0;
       ideaVolume = 0.0;
-      ideaStopLoss = 0.0;
+      // ideaStopLoss = 0.0;
       ideaPercentToSL = 0.0;
       ideaRisk = 0.0;
       ideaRiskPercent = 0.0;
