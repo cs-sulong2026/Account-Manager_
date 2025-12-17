@@ -10,13 +10,13 @@
 #include <ChartObjects/ChartObjectsTxtControls.mqh>
 #include <Trade/AccountInfo.mqh>
 #include <Trade/Trade.mqh>
-#include <errordescription.mqh>
 // For Internal Use
 // #include <AM_ChartObjectsInit.mqh>
 // #include <AM_ControlsDialog.mqh>
 // For VPS Use
 #include "AM_ControlsDialog.mqh"
 #include "AM_ChartObjectsInit.mqh"
+
 //+------------------------------------------------------------------+
 //| Account Manager classes                                          |
 //+------------------------------------------------------------------+
