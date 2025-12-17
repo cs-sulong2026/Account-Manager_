@@ -1512,6 +1512,8 @@ void CAccountManager::OnTradeIdeas(void)
          if (am.trade_PnL >= (inpDailyTarget*2) && !am.daily_target_reached)
             am.daily_target_reached = true;     // To Do: Implement Trading Ideas Conditions with enum
          //---
+
+         //---
          if (trade.ideaStopLoss != am.stop_loss) {
             trade.ideaStopLoss = am.stop_loss;
             // trade.ideaWithSL = 1;
