@@ -1,0 +1,10 @@
+# Compiled files
+*.ex5
+
+# Data and logs
+_Old/
+desktop.ini
+
+# Platform profiles
+
+# VS Code
