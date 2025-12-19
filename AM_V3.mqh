@@ -415,6 +415,8 @@ void CAccountManager::OnTradeProcessing(void)
    //---
    m_pos_total = PositionsTotal();
    //---
+   if(m_pos_total==0)
+      IdeaList.Clear();
    TradeIdeaRefresh();
    //--- 
    if (am.dailyRemainingPercent >= 90.0) {
