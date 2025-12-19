@@ -32,16 +32,8 @@ int OnInit()
    ExtManager.Logging("\n<---------- " + msg + c +" ---------->\n                                                 "
       + i + "\n\nTimeStamp:               PID:  Log Message:");
    //---
-   if (DeinitializationReason == REASON_CHARTCHANGE || DeinitializationReason == REASON_PARAMETERS)
+   if (DeinitializationReason == REASON_CHARTCHANGE)
    {
-      if (!inpShowControlPanel) {
-         Print("Control Panel disabled! Continuing without reinitialization.");
-         return(INIT_SUCCEEDED);
-      }
-      else if(!ExtManager.DialogInit()) {
-         Print("Control Panel initialization failed! Continuing without reinitialization.");
-         return(INIT_SUCCEEDED);
-      } 
       //---
       EventSetTimer(1); // Set timer to 1 seconds interval
       return(INIT_SUCCEEDED);
